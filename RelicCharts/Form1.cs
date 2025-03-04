@@ -7,6 +7,8 @@ using MathNet.Numerics.Distributions;
 
 namespace RelicCharts
 {
+    //Warning, if you go beyond this point, you may not return the same man, nor sane...
+    //Editing anything is highly discouraged...
     public partial class Form1 : Form
     {
         private TabControl _tabControl;
