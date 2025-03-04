@@ -14,9 +14,9 @@ namespace RelicSimulator
         {
             List<Relic> relics = Generator.relicGenerator();
             InstanceHandling.InstanceHandler.instanceHandler(relics);
-            //Analitics.itemsDroppedAnalisys(relics[0]);
-            //Plotter.MostChosenValues(relics[0]);
-              
+            //Analitics.itemsDroppedAnalisys(relics[0]); Ignore these, these were for testing purposes
+            //Plotter.MostChosenValues(relics[0]); I'm pretty sure this doesn't even do anything anymore...
+            
         }
     }
 }
